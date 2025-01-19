@@ -4,15 +4,19 @@
   "description": "Backend Project development for a video playing app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
+  "type": "module",
   "keywords": [
     "MongoDB",
     "Mongoose",
     "Express",
-    "Bckend\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dackend",
+    "Backend",
     "NodeJS"
   ],
   "author": "AQ",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
