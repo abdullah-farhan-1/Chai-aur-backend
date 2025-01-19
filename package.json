@@ -1,0 +1,18 @@
+{
+  "name": "chai-aur-backend",
+  "version": "1.0.0",
+  "description": "Backend Project development for a video playing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MongoDB",
+    "Mongoose",
+    "Express",
+    "Bckend\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dackend",
+    "NodeJS"
+  ],
+  "author": "AQ",
+  "license": "ISC"
+}
