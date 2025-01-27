@@ -1,8 +1,5 @@
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
-import express from "express";
-
-const app = express();
 
 const connectDB = async () => {
   try {
@@ -12,10 +9,6 @@ const connectDB = async () => {
     console.log(
       `Database connected. DB HOST is: ${connectionInstance.connection.host}`
     );
-
-    app.listen(process.env.PORT, () => {
-      console.log(`App is listening on PORT ${process.env.PORT}`);
-    });
   } catch (error) {
     console.error("ERROR: ", error);
     process.exit(1);

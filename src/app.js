@@ -25,4 +25,10 @@ app.use(express.static("public"));
 //configure cookie-parser
 app.use(cookieParser());
 
+//import router as a default import with customized name
+import userRouter from "./routes/user.routes.js";
+
+//routes setup
+app.use("/api/v1/users", userRouter);
+
 export default app;
